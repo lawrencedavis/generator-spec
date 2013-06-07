@@ -56,7 +56,7 @@ module RSpec::Generator
         end
 
         ::RSpec::Generator::TestCase.destination ::Rails.root
-        ::Rails::Generators.configure!
+        # ::Rails::Generators.configure!({})
       end
     end
   end  # Configure
